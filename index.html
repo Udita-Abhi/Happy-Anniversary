@@ -6,17 +6,31 @@
 		<title>Happy Anniversary Udi-Ta</title>
 		<link rel="stylesheet" type="text/css" href="./css/format.css">
 	</head>
+	<style>
+        html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+    </style>
 	<body style="margin:0px">
 		<audio autoplay>
 			<source src="music/music.mp3" type="audio/mpeg">
 			Your browser does not support the audio.
 		</audio>
 		<canvas></canvas>
-		<div id="imgTxt">
+		<div id="imgTxt" class="imgbox">
 			<span id="Txt"></span> <br />
 			<span id="tmp"></span>
-			<img id="img" src="">
+			<img id="img" class="center-fit" src="">
 		</div>
 		<div id="heartTxt">
 			<span id="clickMe">Click!</span>
@@ -49,9 +63,8 @@
 			"pic/pic14.png", "pic/pic15.png", "pic/pic16.png"];
 			var imageIndex = 0;
 			var txtArray = ["Happy Anniversary!!!","Hello, Udi-Ta", "When we met for the first time, we only had a unknown connection", "We were strangers~(｡･ω･｡)ﾉ♡",
-			 "Tummi cute achi!!", "We are in this together", "心~o(≧v≦)o", "Being together is a choice(/ω＼)",
 			 "We were two souls , with no destination", "We found each other(･∀･)", "We Understood each other", "Slowly but Steadily", 
-			 "We continued to hold onto each other..", "We found peace within each other٩(๑òωó๑)۶", "Eight months is just another number", "I love you", "Until , next time...."];
+			 "We continued to hold onto each other..", "We found peace within each other٩(๑òωó๑)۶", "Eight months is just another number", "I love you","Tummi cute achi!!", "We are in this together", "心~o(≧v≦)o", "Being together is a choice(/ω＼)", "Until , next time...."];
 			 var len = imageArray.length;
 			var t = 0;
 		</script>
